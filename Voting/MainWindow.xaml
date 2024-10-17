@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Voting"
         mc:Ignorable="d"
-        Title="MainWindow" Height="720" Width="1280"
+        Title="MainWindow" Height="1080" Width="1920"
         Background="Transparent" AllowsTransparency="True" WindowState="Maximized" WindowStyle="None">
     <Border Background="#1D2028" Margin="15" CornerRadius="5">
         <Border.Effect>
@@ -21,7 +21,7 @@
                     <ColumnDefinition Width="20*"/>
                     <ColumnDefinition Width="180*"/>
                 </Grid.ColumnDefinitions>
-                <Image Source="/kngk-logo.png" Margin="10" HorizontalAlignment="Left"></Image>
+                <Image Source="/kngk-logo.png" Margin="10" HorizontalAlignment="Left" MouseLeftButtonUp="Image_MouseLeftButtonUp"></Image>
                 <StackPanel Orientation="Horizontal" VerticalAlignment="Center" HorizontalAlignment="Right" Grid.Column="1">
                     <StackPanel.Resources>
                         <Style TargetType="Border">
@@ -37,7 +37,7 @@
                             <Setter Property="Foreground" Value="White"></Setter>
                         </Style>
                     </StackPanel.Resources>
-                    <Border x:Name="win_minimize" Background="#60D34E" MouseLeftButtonDown="win_minimize_MouseLeftButtonDown">
+                    <Border x:Name="win_minimize" MouseEnter="Button_MouseEnter" MouseLeave="Button_MouseLeave" Background="#60D34E" MouseLeftButtonDown="win_minimize_MouseLeftButtonDown">
                         <Viewbox>
                             <TextBlock>
                                 -
@@ -45,7 +45,7 @@
                         </Viewbox>
                     </Border>
                     <Border x:Name="win_state" Background="#E9C66F" MouseLeftButtonDown="win_state_MouseLeftButtonDown"/>
-                    <Border x:Name="win_exit" Background="#DC3E3E" MouseLeftButtonDown="win_exit_MouseLeftButtonDown">
+                    <Border x:Name="win_exit" Background="#DC3E3E" MouseEnter="Button_MouseEnter" MouseLeave="Button_MouseLeave" MouseLeftButtonDown="win_exit_MouseLeftButtonDown">
                         <Viewbox>
                             <TextBlock>
                                 ✘

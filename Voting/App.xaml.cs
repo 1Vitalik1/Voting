@@ -30,11 +30,15 @@ namespace Voting
             {
                 specializations = new Collection<Specialization>()
             {
-                        new Specialization("Экономисты", "Экономика и бухгалтерский учет на предприятиях (по отраслям)", "https://avatars.mds.yandex.net/i?id=6a44c1493427ee6ba422677414466bbf468891d7-11509297-images-thumbs&n=13"),
-                        new Specialization("Монтажники", "Монтаж и эксплуатация оборудования и систем газоснабжения", "https://avatars.mds.yandex.net/i?id=6a44c1493427ee6ba422677414466bbf468891d7-11509297-images-thumbs&n=13"),
-                        new Specialization("Строители", "Строительство и эксплуатация зданий и сооружений", "https://avatars.mds.yandex.net/i?id=6a44c1493427ee6ba422677414466bbf468891d7-11509297-images-thumbs&n=13"),
-                        new Specialization("Автомобилисты", "Техническое обслуживание и ремонт двигателей, систем и агрегатов автомобилей", "https://avatars.mds.yandex.net/i?id=6a44c1493427ee6ba422677414466bbf468891d7-11509297-images-thumbs&n=13"),
-                        new Specialization("Программисты", "Информационные системы и программирование", "https://avatars.mds.yandex.net/i?id=6a44c1493427ee6ba422677414466bbf468891d7-11509297-images-thumbs&n=13"),
+                        new Specialization("Монтаж, техническое обслуживание, эксплуатация и ремонт промышленного оборудования", "image\\6.png"),
+                        new Specialization("Монтаж и эксплуатация оборудования и систем газоснабжения", "image\\7.png"),
+                        new Specialization("Строительство и эксплуатация зданий и сооружений", "image\\2.png"),
+                        new Specialization("Техническое обслуживание и ремонт двигателей, систем и агрегатов автомобилей", "image\\4.png"),
+                        new Specialization("Информационные системы и программирование", "image\\1.png"),
+                        new Specialization("Сооружение и эксплуатация газонефтепроводов и газонефтехранилищ", "image\\8.png"),
+                        new Specialization("Экономика и бухгалтерский учет на предприятиях ", "image\\3.png"),
+                        new Specialization("Сооружение и эксплуатация газонефтепроводов и газонефтехранилищ", "https://avatars.mds.yandex.net/i?id=6a44c1493427ee6ba422677414466bbf468891d7-11509297-images-thumbs&n=13"),
+                        new Specialization("Переработка нефти и газа", "image\\5.png"),
             };
 
             }

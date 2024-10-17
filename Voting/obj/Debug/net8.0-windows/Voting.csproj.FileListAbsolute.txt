@@ -22,3 +22,54 @@ C:\Users\Perfi\Desktop\Voting\Voting\obj\Debug\net8.0-windows\pages\MainPage.g.c
 C:\Users\Perfi\Desktop\Voting\Voting\obj\Debug\net8.0-windows\pages\MainPage.baml
 C:\Users\Perfi\Desktop\Voting\Voting\obj\Debug\net8.0-windows\pages\votesResultPage.g.cs
 C:\Users\Perfi\Desktop\Voting\Voting\obj\Debug\net8.0-windows\pages\votesResultPage.baml
+C:\Users\Perfi\OneDrive\Рабочий стол\Voting\Voting\obj\Debug\net8.0-windows\MainWindow.g.cs
+C:\Users\Perfi\OneDrive\Рабочий стол\Voting\Voting\obj\Debug\net8.0-windows\pages\MainPage.g.cs
+C:\Users\Perfi\OneDrive\Рабочий стол\Voting\Voting\obj\Debug\net8.0-windows\pages\votesResultPage.g.cs
+C:\Users\Perfi\OneDrive\Рабочий стол\Voting\Voting\obj\Debug\net8.0-windows\App.g.cs
+C:\Users\Perfi\OneDrive\Рабочий стол\Voting\Voting\obj\Debug\net8.0-windows\Voting_MarkupCompile.cache
+C:\Users\Perfi\OneDrive\Рабочий стол\Voting\Voting\obj\Debug\net8.0-windows\Voting_MarkupCompile.lref
+C:\Users\Perfi\OneDrive\Рабочий стол\Voting\Voting\obj\Debug\net8.0-windows\Voting.dll
+C:\Users\Perfi\OneDrive\Рабочий стол\Voting\Voting\obj\Debug\net8.0-windows\refint\Voting.dll
+C:\Users\Perfi\OneDrive\Рабочий стол\Voting\Voting\obj\Debug\net8.0-windows\Voting.pdb
+C:\Users\Perfi\OneDrive\Рабочий стол\Voting\Voting\bin\Debug\net8.0-windows\Voting.exe
+C:\Users\Perfi\OneDrive\Рабочий стол\Voting\Voting\bin\Debug\net8.0-windows\Voting.deps.json
+C:\Users\Perfi\OneDrive\Рабочий стол\Voting\Voting\bin\Debug\net8.0-windows\Voting.runtimeconfig.json
+C:\Users\Perfi\OneDrive\Рабочий стол\Voting\Voting\bin\Debug\net8.0-windows\Voting.dll
+C:\Users\Perfi\OneDrive\Рабочий стол\Voting\Voting\bin\Debug\net8.0-windows\Voting.pdb
+C:\Users\Perfi\OneDrive\Рабочий стол\Voting\Voting\obj\Debug\net8.0-windows\MainWindow.baml
+C:\Users\Perfi\OneDrive\Рабочий стол\Voting\Voting\obj\Debug\net8.0-windows\pages\MainPage.baml
+C:\Users\Perfi\OneDrive\Рабочий стол\Voting\Voting\obj\Debug\net8.0-windows\pages\votesResultPage.baml
+C:\Users\Perfi\OneDrive\Рабочий стол\Voting\Voting\obj\Debug\net8.0-windows\Voting.g.resources
+C:\Users\Perfi\OneDrive\Рабочий стол\Voting\Voting\obj\Debug\net8.0-windows\Voting.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Perfi\OneDrive\Рабочий стол\Voting\Voting\obj\Debug\net8.0-windows\Voting.AssemblyInfoInputs.cache
+C:\Users\Perfi\OneDrive\Рабочий стол\Voting\Voting\obj\Debug\net8.0-windows\Voting.AssemblyInfo.cs
+C:\Users\Perfi\OneDrive\Рабочий стол\Voting\Voting\obj\Debug\net8.0-windows\Voting.csproj.CoreCompileInputs.cache
+C:\Users\Perfi\OneDrive\Рабочий стол\Voting\Voting\obj\Debug\net8.0-windows\Voting.sourcelink.json
+C:\Users\Perfi\OneDrive\Рабочий стол\Voting\Voting\obj\Debug\net8.0-windows\Voting.genruntimeconfig.cache
+C:\Users\Perfi\OneDrive\Рабочий стол\Voting\Voting\obj\Debug\net8.0-windows\ref\Voting.dll
+D:\Voting\Voting\bin\Debug\net8.0-windows\Voting.exe
+D:\Voting\Voting\bin\Debug\net8.0-windows\Voting.deps.json
+D:\Voting\Voting\bin\Debug\net8.0-windows\Voting.runtimeconfig.json
+D:\Voting\Voting\bin\Debug\net8.0-windows\Voting.dll
+D:\Voting\Voting\bin\Debug\net8.0-windows\Voting.pdb
+D:\Voting\Voting\obj\Debug\net8.0-windows\MainWindow.g.cs
+D:\Voting\Voting\obj\Debug\net8.0-windows\pages\MainPage.g.cs
+D:\Voting\Voting\obj\Debug\net8.0-windows\pages\votesResultPage.g.cs
+D:\Voting\Voting\obj\Debug\net8.0-windows\App.g.cs
+D:\Voting\Voting\obj\Debug\net8.0-windows\Voting_MarkupCompile.cache
+D:\Voting\Voting\obj\Debug\net8.0-windows\Voting_MarkupCompile.lref
+D:\Voting\Voting\obj\Debug\net8.0-windows\MainWindow.baml
+D:\Voting\Voting\obj\Debug\net8.0-windows\pages\MainPage.baml
+D:\Voting\Voting\obj\Debug\net8.0-windows\pages\votesResultPage.baml
+D:\Voting\Voting\obj\Debug\net8.0-windows\Voting.g.resources
+D:\Voting\Voting\obj\Debug\net8.0-windows\Voting.GeneratedMSBuildEditorConfig.editorconfig
+D:\Voting\Voting\obj\Debug\net8.0-windows\Voting.AssemblyInfoInputs.cache
+D:\Voting\Voting\obj\Debug\net8.0-windows\Voting.AssemblyInfo.cs
+D:\Voting\Voting\obj\Debug\net8.0-windows\Voting.csproj.CoreCompileInputs.cache
+D:\Voting\Voting\obj\Debug\net8.0-windows\Voting.dll
+D:\Voting\Voting\obj\Debug\net8.0-windows\refint\Voting.dll
+D:\Voting\Voting\obj\Debug\net8.0-windows\Voting.pdb
+D:\Voting\Voting\obj\Debug\net8.0-windows\Voting.genruntimeconfig.cache
+D:\Voting\Voting\obj\Debug\net8.0-windows\ref\Voting.dll
+D:\Voting\Voting\obj\Debug\net8.0-windows\pages\ThanksPage.g.cs
+D:\Voting\Voting\obj\Debug\net8.0-windows\pages\ThanksPage.baml

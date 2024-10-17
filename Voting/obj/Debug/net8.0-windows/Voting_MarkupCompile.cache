@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\Perfi\Desktop\Voting\Voting\obj\Debug\net8.0-windows\
+D:\Voting\Voting\obj\Debug\net8.0-windows\
 Voting
 none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP
-C:\Users\Perfi\Desktop\Voting\Voting\App.xaml
-3-180715642
+D:\Voting\Voting\App.xaml
+4-1177988183
 
-71135699282
+81524384616
 198-294894759
-MainWindow.xaml;pages\MainPage.xaml;pages\votesResultPage.xaml;
+MainWindow.xaml;pages\MainPage.xaml;pages\ThanksPage.xaml;pages\votesResultPage.xaml;
 
 False
 

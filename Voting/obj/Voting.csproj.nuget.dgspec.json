@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Perfi\\Desktop\\Voting\\Voting\\Voting.csproj": {}
+    "D:\\Voting\\Voting\\Voting.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Perfi\\Desktop\\Voting\\Voting\\Voting.csproj": {
+    "D:\\Voting\\Voting\\Voting.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Perfi\\Desktop\\Voting\\Voting\\Voting.csproj",
+        "projectUniqueName": "D:\\Voting\\Voting\\Voting.csproj",
         "projectName": "Voting",
-        "projectPath": "C:\\Users\\Perfi\\Desktop\\Voting\\Voting\\Voting.csproj",
+        "projectPath": "D:\\Voting\\Voting\\Voting.csproj",
         "packagesPath": "C:\\Users\\Perfi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Perfi\\Desktop\\Voting\\Voting\\obj\\",
+        "outputPath": "D:\\Voting\\Voting\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

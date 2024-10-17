@@ -1,6 +1,8 @@
 ﻿using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Input;
+using System.Windows.Media;
+using Voting.pages;
 
 namespace Voting
 {
@@ -9,6 +11,7 @@ namespace Voting
     /// </summary>
     public partial class MainWindow : Window
     {
+        Brush temp;
         public MainWindow()
         {
             InitializeComponent();
@@ -37,6 +40,25 @@ namespace Voting
             App.frame.GoBack();
             Border border = (Border)sender;
             border.Visibility = Visibility.Collapsed;
+        }
+
+        private void Image_MouseLeftButtonUp(object sender, MouseButtonEventArgs e)
+        {
+            votesResultPage votesResultPage = new votesResultPage();
+            App.frame.Navigate(votesResultPage);
+        }
+
+        private void Button_MouseEnter(object sender, MouseEventArgs e)
+        {
+            Border border = (Border)sender;
+            temp = border.Background;
+            border.Background = new SolidColorBrush(Color.FromRgb(37, 39, 47));
+        }
+
+        private void Button_MouseLeave(object sender, MouseEventArgs e)
+        {
+            Border border = (Border)sender;
+            border.Background = temp;
         }
     }
 }

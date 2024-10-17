@@ -5,39 +5,112 @@
       xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
       xmlns:local="clr-namespace:Voting.pages"
       mc:Ignorable="d" 
-      d:DesignHeight="630" d:DesignWidth="1280"
+      d:DesignHeight="1000" d:DesignWidth="1920"
       Title="MainPage">
-    <ScrollViewer HorizontalScrollBarVisibility="Auto" VerticalScrollBarVisibility="Hidden">
-        <Viewbox Height="630" HorizontalAlignment="Center" VerticalAlignment="Center">
-            <WrapPanel Orientation="Horizontal" x:Name="allCard">
-                <!--
-                <Border Width="350" Height="500" Margin="40" Background="#181A24" CornerRadius="5">
-                    <Border.Effect>
-                        <DropShadowEffect Color="#366EC0" ShadowDepth="0" BlurRadius="50"></DropShadowEffect>
-                    </Border.Effect>
-                    <Grid>
-                        <Grid.RowDefinitions>
-                            <RowDefinition Height="7*"/>
-                            <RowDefinition Height="10*"/>
-                        </Grid.RowDefinitions>
-                        <Border Margin="25">
-                            <Border.Background>
-                                <ImageBrush ImageSource="/kngk-logo.png"/>
-                            </Border.Background>
-                        </Border>
-                        <Line VerticalAlignment="Bottom" Stroke="#366EC0" StrokeThickness="5" X1="350"></Line>
-                        <StackPanel Grid.Row="1">
-                            <TextBlock FontSize="22" HorizontalAlignment="Center" Margin="10" Foreground="White">BlockName</TextBlock>
-                            <TextBlock FontSize="22" HorizontalAlignment="Center" Margin="10" Foreground="White">Description:</TextBlock>
-                        </StackPanel>
-                        <Border Grid.Row="1" VerticalAlignment="Bottom" Background="#366EC0" Margin="15">
-                            <TextBlock HorizontalAlignment="Center" Foreground="White" FontSize="20">Vote</TextBlock>
-                        </Border>
-                    </Grid>
-                </Border>
-                -->
+    <Grid x:Name="allItems">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+        </Grid.RowDefinitions>
+        <Border Margin="15" CornerRadius="5" BorderThickness="2" BorderBrush="Black">
+            <Border.Background>
+                <ImageBrush Stretch="Fill"/>
+            </Border.Background>
+            <Border Background="#AA000000" >
+                <TextBlock Foreground="White" FontSize="20" TextWrapping="Wrap" Margin="5" HorizontalAlignment="Center" VerticalAlignment="Center" >
+                    Монтаж, техническое обслуживание, эксплуатация и ремонт промышленного оборудования
+                </TextBlock>
+            </Border>
+        </Border>
+        <Border Grid.Column="1" Margin="15" CornerRadius="5" BorderThickness="2" BorderBrush="Black">
+            <Border.Background>
+                <ImageBrush Stretch="Fill"/>
+            </Border.Background>
+            <Border Background="#AA000000" >
+                <TextBlock Foreground="White" FontSize="20" TextWrapping="Wrap" Margin="5" HorizontalAlignment="Center" VerticalAlignment="Center" >
+                    Монтаж и эксплуатация оборудования и систем газоснабжения
+                </TextBlock>
+            </Border>
+        </Border>
+        <Border Grid.Column="2" Margin="15" CornerRadius="5" BorderThickness="2" BorderBrush="Black">
+            <Border.Background>
+                <ImageBrush Stretch="Fill"/>
+            </Border.Background>
+            <Border Background="#AA000000" >
+                <TextBlock Foreground="White" FontSize="20" TextWrapping="Wrap" Margin="5" HorizontalAlignment="Center" VerticalAlignment="Center" >
+                    Строительство и эксплуатация зданий и сооружений
+                </TextBlock>
+            </Border>
+        </Border>
 
-            </WrapPanel>
-        </Viewbox>
-    </ScrollViewer>
+
+        <Border Grid.Row="1" Margin="15" CornerRadius="5" BorderThickness="2" BorderBrush="Black">
+            <Border.Background>
+                <ImageBrush Stretch="Fill"/>
+            </Border.Background>
+            <Border Background="#AA000000" >
+                <TextBlock Foreground="White" FontSize="20" TextWrapping="Wrap" Margin="5" HorizontalAlignment="Center" VerticalAlignment="Center" >
+                   Техническое обслуживание и ремонт двигателей, систем и агрегатов автомобилей
+                </TextBlock>
+            </Border>
+        </Border>
+        <Border Grid.Row="1" Grid.Column="1" Margin="15" CornerRadius="5" BorderThickness="2" BorderBrush="Black">
+            <Border.Background>
+                <ImageBrush Stretch="Fill"/>
+            </Border.Background>
+            <Border Background="#AA000000" >
+                <TextBlock Foreground="White" FontSize="20" TextWrapping="Wrap" Margin="5" HorizontalAlignment="Center" VerticalAlignment="Center" >
+                    Информационные системы и                     программирование
+                </TextBlock>
+            </Border>
+        </Border>
+        <Border Grid.Row="1" Grid.Column="2" Margin="15" CornerRadius="5" BorderThickness="2" BorderBrush="Black">
+            <Border.Background>
+                <ImageBrush Stretch="Fill"/>
+            </Border.Background>
+            <Border Background="#AA000000" >
+                <TextBlock Foreground="White" FontSize="20" TextWrapping="Wrap" Margin="5" HorizontalAlignment="Center" VerticalAlignment="Center" >
+                    Сооружение и эксплуатация газонефтепроводов и газонефтехранилищ
+
+                </TextBlock>
+            </Border>
+        </Border>
+
+        <Border Grid.Row="2" Margin="15" CornerRadius="5" BorderThickness="2" BorderBrush="Black">
+            <Border.Background>
+                <ImageBrush Stretch="Fill"/>
+            </Border.Background>
+            <Border Background="#AA000000" >
+                <TextBlock Foreground="White" FontSize="20" TextWrapping="Wrap" Margin="5" HorizontalAlignment="Center" VerticalAlignment="Center" >
+                   Экономика и бухгалтерский учет на предприятиях (по отраслям)
+                </TextBlock>
+            </Border>
+        </Border>
+        <Border Visibility="Hidden" Grid.Row="2" Grid.Column="1" Margin="15" CornerRadius="5" BorderThickness="2" BorderBrush="Black">
+            <Border.Background>
+                <ImageBrush Stretch="Fill"/>
+            </Border.Background>
+            <Border Background="#AA000000">
+                <TextBlock Foreground="White" FontSize="20" TextWrapping="Wrap" Margin="5" HorizontalAlignment="Center" VerticalAlignment="Center" >
+                    Сооружение и эксплуатация газонефтепроводов и газонефтехранилищ
+                </TextBlock>
+            </Border>
+        </Border>
+        <Border Grid.Row="2" Grid.Column="2" Margin="15" CornerRadius="5" BorderThickness="2" BorderBrush="Black">
+            <Border.Background>
+                <ImageBrush Stretch="Fill"/>
+            </Border.Background>
+            <Border Background="#AA000000" >
+                <TextBlock Foreground="White" FontSize="20" TextWrapping="Wrap" Margin="5" HorizontalAlignment="Center" VerticalAlignment="Center" >
+ Переработка нефти и газа
+                </TextBlock>
+            </Border>
+        </Border>
+    </Grid>
 </Page>

@@ -14,9 +14,13 @@ namespace Voting.pages
         public votesResultPage()
         {
             InitializeComponent();
-            foreach(Specialization specialization in App.specializations)
+            for (int i = 0; i < App.specializations.Count; i++)
             {
-                statistic.Items.Add(specialization.ToString());
+                if(i != 7)
+                {
+                    Specialization specialization = App.specializations[i];
+                    statistic.Items.Add(specialization.ToString());
+                }
             }
         }
 
@@ -37,10 +41,26 @@ namespace Voting.pages
         {
             string desktopPath = Environment.GetFolderPath(Environment.SpecialFolder.Desktop);
             Collection<string> files = new Collection<string>();
-            foreach (Specialization specialization in App.specializations) files.Add(specialization.ToString());
+            for (int i = 0; i < App.specializations.Count; i++)
+            {
+                if(i != 7) 
+                {
+                    Specialization specialization = App.specializations[i];
+                    files.Add(specialization.ToString());
+                }
+            }
+
             string filePath = Path.Combine(desktopPath, "Отчёт.txt");
             if (File.Exists(filePath)) File.Delete(filePath);
             File.WriteAllLines(filePath, files);
+            for(int i = 0; i < App.specializations.Count; i++)
+            {
+                if(i != 7)
+                {
+                    Specialization specialization = App.specializations[i];
+                    files.Add(specialization.ToString());
+                }
+            }
             
         }
     }

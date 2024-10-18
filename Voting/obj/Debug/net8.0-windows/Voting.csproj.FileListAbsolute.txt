@@ -73,3 +73,5 @@ D:\Voting\Voting\obj\Debug\net8.0-windows\Voting.genruntimeconfig.cache
 D:\Voting\Voting\obj\Debug\net8.0-windows\ref\Voting.dll
 D:\Voting\Voting\obj\Debug\net8.0-windows\pages\ThanksPage.g.cs
 D:\Voting\Voting\obj\Debug\net8.0-windows\pages\ThanksPage.baml
+C:\Users\Perfi\OneDrive\Рабочий стол\Voting\Voting\obj\Debug\net8.0-windows\pages\ThanksPage.g.cs
+C:\Users\Perfi\OneDrive\Рабочий стол\Voting\Voting\obj\Debug\net8.0-windows\pages\ThanksPage.baml

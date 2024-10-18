@@ -7,10 +7,7 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="1080" Width="1920"
         Background="Transparent" AllowsTransparency="True" WindowState="Maximized" WindowStyle="None">
-    <Border Background="#1D2028" Margin="15" CornerRadius="5">
-        <Border.Effect>
-            <DropShadowEffect Color="#366EC0" ShadowDepth="0" BlurRadius="30"></DropShadowEffect>
-        </Border.Effect>
+    <Border Background="#1D2028">
         <Grid>
             <Grid.RowDefinitions>
                 <RowDefinition Height="5*"/>

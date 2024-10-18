@@ -4,16 +4,16 @@
 winexe
 C#
 .cs
-D:\Voting\Voting\obj\Debug\net8.0-windows\
+C:\Users\Perfi\OneDrive\Рабочий стол\Voting\Voting\obj\Debug\net8.0-windows\
 Voting
 none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP
-D:\Voting\Voting\App.xaml
+C:\Users\Perfi\OneDrive\Рабочий стол\Voting\Voting\App.xaml
 4-1177988183
 
 81524384616
-198-294894759
+198-1509178875
 MainWindow.xaml;pages\MainPage.xaml;pages\ThanksPage.xaml;pages\votesResultPage.xaml;
 
 False
